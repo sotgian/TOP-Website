@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* Remove default margin */
+}
+
+* {
+    box-sizing: border-box; /* Prevent padding from breaking layouts */
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0; /* top/bottom only */
+}
+
+
+header .container {
+    display: flex;
+    align-items: center; /* Keep logo vertically aligned */
+    justify-content: space-between; /* Maintain spacing */
+    padding: 0 50px;
+}
+
+header a { /* Target all links inside header */
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 500;
+    margin-left: 20px; /* Add spacing between links */
+}
+
+.HeroBlock {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0; /* top/bottom only */
+}
+
+.HeroBlock .container {
+    display: flex;
+    align-items: center; /* Vertically align */
+    gap: 20px; /* Space between text and image */
+}
+
+.figure1 img {
+    max-width: 300px; /* Keep image smaller */
+    height: auto;
+    border-radius: 8px;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.headerlogo {
+    font-size: 48px; /* Match HeroMainText size */
+    color: #f9faf8;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 1.2; /* Match vertical alignment with HeroBlock */
+}
+
+.navtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+}
+
+.HeroMainText {
+    font-size: 48px; /* Already matches header logo size */
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0; /* Remove extra margin */
+    line-height: 1.2; /* Match header logo */
+}
+
+.HeroText {
+    max-width: 600px; /* Prevent text from getting too wide */
+    flex: 1; /* Let it take available space */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* narrower side gaps */
+}
+
+.gallery {
+    padding: 50px 0; /* Top and bottom padding */
+    background-color: #f3f4f6; /* Light background */
+    text-align: center; /* Center text */
+}
+
+.gallery1 {
+    display: flex;
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center horizontally */
+    flex-wrap: wrap; /* Wrap if items overflow */
+}
+
+.gallerytext {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.QuoteBlock {
+    padding: 50px 0;
+    background-color: #e5e7eb; /* Slightly different background */
+    text-align: center; /* Center text */
+}
+
+.QuoteText {
+    font-size: 24px;
+    font-style: italic;
+    color: #374151;
+}
+
+.QuoteAuthor {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.CallToAction {
+    padding: 50px 0;
+    background-color: #1f2937; /* Match HeroBlock background */
+    text-align: center;
+}
+
+.BlackText {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.CTAButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #1f2937;
+    background-color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
